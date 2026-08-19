@@ -336,6 +336,7 @@ header a.shape::after{
 }
 #Portfolio .content .box {
     width: 33.33%;
+    margin: 10px 0;
 }
 /*#Portfolio .content .box {
     margin-bottom: 20px;
