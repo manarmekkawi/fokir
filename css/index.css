@@ -337,9 +337,9 @@ header a.shape::after{
 #Portfolio .content .box {
     width: 33.33%;
 }
-#Portfolio .content .box {
+/*#Portfolio .content .box {
     margin-bottom: 20px;
-}
+}*/
 #Portfolio .content .box .item {
     position: relative;
     margin: 0 10px;
@@ -399,11 +399,15 @@ header a.shape::after{
     text-decoration: none;
     cursor: pointer;
 }
+#Portfolio .content .box .item:hover .layout a {
+    bottom: 30px;
+}
 #Portfolio .content .box .item:hover .layout h3,
 #Portfolio .content .box .item:hover .layout a {
     transition-duration: 1s;
     transition-delay: 1s;
 }
+ 
 #Portfolio .content .box .item:hover .layout h3 {
     left: 0%;
 }
