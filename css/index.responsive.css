@@ -84,8 +84,11 @@
     margin-bottom: 20px;
    }
    #Blog .content .box .item{
-        width: 280px ;
+        width: 280px ;         
    }
+    #ContactUs form{
+        margin-bottom: 100px;
+    }
    #ContactUs form .box:nth-of-type(1),
    #ContactUs form .box:nth-of-type(2){
       width: 100%;
@@ -97,8 +100,10 @@
     #ContactUs form button{
         width: 100%;
     }
+     
     .footer {
         font-size: 12px;
+      
     }
 }
 @media (min-width: 371px) and (max-width: 1300px) {
@@ -186,5 +191,22 @@
         width: initial;
         margin: 0 10px;
    }
+    #ContactUs{
+        padding-bottom: 0 !important;
+    }
+     #ContactUs .cntent .row{
+        display: flex;
+        align-items: flex-end;
+    
+     }
+      #ContactUs.part img {
+        display: block;
+        margin-bottom: 0;
+        min-width: 100%;
+        height: auto;
+      }
+       #ContactUs .part2{
+        margin-bottom: 30px;
+       }
 }
 @media (min-width: 1181px) and (max-width: 1300px) {}

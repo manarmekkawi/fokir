@@ -434,7 +434,7 @@ header a.shape::after{
 
 }
 #Blog .content .box .item .head img,
-#Blog .content .box .item .head iframe {
+#Blog .content .box .item .head video {
     width: 100%;
     height: 100%;
     display: block;
@@ -496,7 +496,7 @@ header a.shape::after{
 }
 #ContactUs form .box .item input,
 #ContactUs form .box .item textarea {
-    coloe: #fff;
+    color: #fff;
     width: 100%;
     border: 1px solid var(--main-color);
     background-color: transparent;
